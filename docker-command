@@ -1,1 +1,1 @@
-docker run --gpus all -v /home/dadepe/Documentos/MesoNet:/usr/local/Mesonet --rm -it tensorflow/tensorflow:1.6.0-gpu-py3 bash
+docker run --gpus all -v $(pwd):/notebooks --rm -it tensorflow/tensorflow:1.6.0-gpu-py3 ./run.sh
